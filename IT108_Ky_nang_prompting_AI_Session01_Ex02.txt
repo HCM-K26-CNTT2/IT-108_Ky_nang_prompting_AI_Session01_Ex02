@@ -1,0 +1,27 @@
+﻿Bài 2: Nhận diện 3 loại dữ liệu thuộc "Vùng cấm tuyệt đối" khi sử dụng AI** 
+* Phần 1 (Rà soát & Phân loại): Dựa vào Mục 2.1 Lesson 02, liệt kê 3 loại dữ liệu thuộc "Vùng cấm tuyệt đối". Đối chiếu với Bảng dữ liệu trên và chỉ ra chính xác từng trường thông tin vi phạm nhóm dữ liệu nào.
+
+
+* Liệt kê 3 loại dữ liệu thuộc "Vùng cấm tuyệt đối"
+* Dữ liệu về thông tin cá nhân: 
+* Dữ liệu về tài chính
+* Dữ liệu về nơi ở hoặc nơi kinh doanh
+
+
+* Đối chiếu với Bảng dữ liệu trên và chỉ ra chính xác từng trường thông tin vi phạm nhóm dữ liệu nào.
+* Dữ liệu về thông tin cá nhân: cột Họ và tên khách hàng, cột Số điện thoại
+* Dữ liệu về tài chính: cột Thông tin thẻ ngân hàng / tài chính
+* Dữ liệu về nơi ở hoặc nơi kinh doanh:  cột Địa chỉ nhà & ghi chú VIP
+
+
+* Phần 2 (Xử lý sự cố): Đánh giá nguy cơ pháp lý MartX phải chịu và đề xuất 3 bước xử lý sự cố khẩn cấp cho Phòng IT.
+
+
+* Đánh giá nguy cơ pháp lý MartX phải chịu
+* Nguy cơ phải chịu: vi phạm về tính bảo mật thông tin cá nhân, sẽ phải đền tiền và sẽ bị mất uy tín.
+
+
+* Đề xuất 3 bước xử lý sự cố khẩn cấp cho Phòng IT.
+* Bước 1 (Ẩn danh): Tuyệt đối không dán thông tin thật lên AI. Thay thế tên bằng [Khach_hang_VIP] , SĐT thành [So_dien_thoai], địa chỉ nhà thành hoặc nơi kinh doanh thành [Dia_chi].
+* Bước 2 (Gửi Prompt an toàn): Câu lệnh gửi AI: "Hãy viết thư tri ân đến những [Khach_hang_VIP] này và hướng dẫn nhận quà tri ân."
+* Bước 3 (Điền thông tin nội bộ): Sao chép văn bản do AI tạo ra, mở phần mềm quản lý nội bộ MartX và điền lại thông tin thật trước khi gửi khách.
